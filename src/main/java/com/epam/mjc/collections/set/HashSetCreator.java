@@ -9,6 +9,7 @@ public class HashSetCreator {
         for (int x : sourceList) {
             if (x % 2 == 0)
                 while (x % 2 != 1) {
+                    resultSet.add(x);
                     x = x / 2;
                 }
             resultSet.add(x);
